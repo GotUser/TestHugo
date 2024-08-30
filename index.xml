@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Page on Canvas Theme</title>
+    <link>https://hugoblogapp.com/</link>
+    <description>Recent content in Home Page on Canvas Theme</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hugoblogapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions autoEpxress</title>
+      <link>https://hugoblogapp.com/solutions/autoexpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hugoblogapp.com/solutions/autoexpress/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Solutions erpXpress</title>
+      <link>https://hugoblogapp.com/solutions/erpxpress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hugoblogapp.com/solutions/erpxpress/</guid>
+      <description>Test Content</description>
+    </item>
+  </channel>
+</rss>
