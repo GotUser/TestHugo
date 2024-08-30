@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+  
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=%7b%7d"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{}');
+</script>
+
+
+<meta charset="utf-8">
+<title>Canvas Theme | Solutions autoEpxress</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href='/apple-touch-icon.png'>
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital@0;1&display=swap"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="/styles/style.css">
+
+
+<link rel="stylesheet" href="/css/font-icons.css">
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+
+
+<style>
+  :root {
+    --cnvs-themecolor: #3e8de3;
+    --cnvs-themecolor-rgb: 62, 141, 227;
+  }
+
+  .demos-text-rotator {
+    font-size: 7vw;
+  }
+
+  @media (min-width: 992px) {
+    .demos-text-rotator {
+      font-size: 5vw;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .demos-text-rotator {
+      font-size: 3.5vw;
+    }
+  }
+
+
+  @media (max-width: 767.98px) {
+    .slider-element .heading-block h1 small {
+      font-size: 15px;
+    }
+  }
+
+  .testimonials-rating {
+    color: #FFD700;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  #niche-demos .portfolio-item .portfolio-image .flexslider a {
+    width: inherit;
+  }
+
+  .more-link {
+    border-bottom-width: 1px;
+    font-style: normal;
+    font-family: proxima-nova, sans-serif;
+  }
+
+  .p-generator-video::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 110%;
+    height: 110%;
+    background-size: 12px 12px;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    background-image: radial-gradient(#5c2ede 14%, transparent 14%);
+    -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 75%);
+    mask-image: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 75%);
+    z-index: -1;
+  }
+
+  #section-blocks {
+    background-image: linear-gradient(to bottom, #FFF 36%, #000 36%);
+  }
+
+  .section-blocks-imgs img:nth-child(1) {
+    width: 100%;
+    max-width: 840px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .section-blocks-imgs img:nth-child(2) {
+    display: none;
+    position: absolute;
+    width: 480px;
+    right: 0;
+    bottom: -10px;
+    border: 4px solid #FFF;
+  }
+
+  @media (min-width: 1200px) {
+    #section-blocks {
+      background-image: linear-gradient(to bottom, #FFF 50%, #000 50%);
+    }
+
+    .section-blocks-imgs img:nth-child(1) {
+      margin-left: 5%;
+    }
+
+    .section-blocks-imgs img:nth-child(2) {
+      right: 5%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .section-blocks-imgs img:nth-child(2) {
+      display: block;
+    }
+  }
+
+  @-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-7%, 0, 0);
+      transform: translate3d(-7%, 0, 0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-4%, 0, 0);
+      transform: translate3d(-4%, 0, 0);
+    }
+  }
+
+  @-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 4%, 0);
+      transform: translate3d(0, 4%, 0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 4%, 0);
+      transform: translate3d(0, 4%, 0);
+    }
+  }
+
+  @media (min-width: 992px) {
+    .intro-lead {
+      font-size: 1.3125rem !important;
+    }
+  }
+
+  .swiper-slide img.lazy.lazy-loaded {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .display-on-lazy>*:not(.lazy) {
+    opacity: 0 !important;
+    transition: opacity .3s ease;
+  }
+
+  .display-on-lazy .lazy.lazy-loaded~* {
+    opacity: 1 !important;
+  }
+
+  #page-menu {
+    height: 0;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  #page-menu #page-menu-wrap {
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-transform: translate3d(0, -44px, 0);
+    -o-transform: translate3d(0, -44px, 0);
+    transform: translate3d(0, -44px, 0);
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+  }
+
+  #page-menu.sticky-page-menu {
+    overflow: visible;
+  }
+
+  #page-menu.sticky-page-menu #page-menu-wrap {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  body:not(.is-expanded-menu) {
+    --cnvs-header-height: 60px;
+  }
+
+  .w-20 {
+    width: 20%;
+  }
+
+  .tab-hover .nav-link {
+    position: relative;
+    display: block;
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: color .25s linear;
+    -o-transition: color .25s linear;
+    transition: color .25s linear;
+  }
+
+  .tab-hover .nav-link.active {
+    color: #4772d9;
+  }
+
+  .tab-hover .nav-link::after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-top: -1px;
+    -ms-transform: translate(25%, -1px);
+    transform: translate(25%, -1px);
+    background: linear-gradient(to right, transparent 10%, #4772d9 50%);
+    transition: all .4s ease-in-out;
+    background-color: #4772d9;
+    -backface-visibility: hidden;
+  }
+
+  .tab-hover .nav-link.active::after {
+    opacity: 1;
+    -ms-transform: translate(0, -1px);
+    transform: translate(0, -1px)
+  }
+
+  @media (max-width: 767.98px) {
+    .tab-hover .nav {
+      border-bottom: 2px solid #EEE;
+      padding-bottom: 15px;
+      margin-bottom: 50px;
+    }
+
+    .tab-hover .nav-link {
+      padding: 8px;
+    }
+
+    .tab-hover .nav-link::after {
+      display: none;
+    }
+
+    .w-20 {
+      width: 33.333333%;
+    }
+  }
+
+  .tab-hover h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  body:not(.is-expanded-menu) #header {
+    --cnvs-header-height: 80px;
+  }
+
+  .is-expanded-menu #header:not(.sticky-header) #header-wrap {
+    border-bottom: 0;
+  }
+
+  .intro-hero-images-section {
+    --cnvs-intro-hero-images-position: 0%;
+  }
+
+  .intro-hero-images-section:first-child {
+    left: var(--cnvs-intro-hero-images-position);
+  }
+
+  .intro-hero-images-section:last-child {
+    right: var(--cnvs-intro-hero-images-position);
+  }
+
+  @media (max-width: 991.98px) {
+    .intro-hero-images-section {
+      opacity: 0.1;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .intro-hero-images-section {
+      --cnvs-intro-hero-images-position: -10%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .intro-hero-images-section {
+      --cnvs-intro-hero-images-position: -7%;
+    }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1700px) {
+    .intro-hero-images-section {
+      --cnvs-intro-hero-images-position: -5%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    #logo {
+      width: auto;
+    }
+
+    .header-misc {
+      width: auto;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    #logo {
+      width: 20%;
+    }
+
+    .header-misc {
+      width: 20%;
+    }
+  }
+</style>
+
+  <meta name="description" content=This&#32;is&#32;a&#32;description>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="author" content="SemiColonWeb">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="stretched">
+
+  
+  <div id="wrapper">
+    
+<header id="header" class="transparent-header">
+	<div id="header-wrap">
+		<div class="container-fluid px-4 px-xl-5">
+			<div class="header-row">
+
+				
+				<div id="logo" class="me-xl-0">
+					<a href="/" class="w-auto">
+						<img class="logo-default" style="height: 50px;"
+							srcset="/images/logo.webp, /images/logo@2x.webp 2x" src="/images/logo@2x.png"
+							alt="Canvas Logo">
+						<img class="logo-dark" srcset="/images/logo-dark.webp, /images/logo-dark@2x.webp 2x"
+							src="/images/logo-dark@2x.webp" alt="Canvas Logo">
+					</a>
+				</div>
+
+				<div class="header-misc justify-content-xl-end">
+					
+					<div id="top-search" class="header-misc-icon">
+						<a href="#" id="top-search-trigger"><i class="uil uil-search"></i><i class="bi-x-lg"></i></a>
+					</div>
+
+					
+					<div id="top-cart" class="header-misc-icon">
+						<a href="#" id="top-cart-trigger"><i class="uil uil-shopping-bag"></i><span
+								class="top-cart-number">5</span></a>
+						<div class="top-cart-content">
+							<div class="top-cart-title">
+								<h4 class="mb-0">Shopping Cart</h4>
+							</div>
+							<div class="top-cart-items">
+								<div class="top-cart-item">
+									<div class="top-cart-item-image">
+										<a href="#"><img src="/images/shop/small/1.jpg"
+												alt="Blue Round-Neck Tshirt"></a>
+									</div>
+									<div class="top-cart-item-desc">
+										<div class="top-cart-item-desc-title">
+											<a href="#">Blue Round-Neck Tshirt with a Button</a>
+											<span class="top-cart-item-price d-block">$19.99</span>
+										</div>
+										<div class="top-cart-item-quantity">x 2</div>
+									</div>
+								</div>
+								<div class="top-cart-item">
+									<div class="top-cart-item-image">
+										<a href="#"><img src="/images/shop/small/6.jpg"
+												alt="Light Blue Denim Dress"></a>
+									</div>
+									<div class="top-cart-item-desc">
+										<div class="top-cart-item-desc-title">
+											<a href="#">Light Blue Denim Dress</a>
+											<span class="top-cart-item-price d-block">$24.99</span>
+										</div>
+										<div class="top-cart-item-quantity">x 3</div>
+									</div>
+								</div>
+							</div>
+							<div class="top-cart-action">
+								<span class="top-checkout-price">$114.95</span>
+								<a href="#" class="button button-3d button-small m-0">View Cart</a>
+							</div>
+						</div>
+					</div>
+
+					<a href="https://1.envato.market/c/1309643/480739/4415?u=https%3A%2F%2Fthemeforest.net%2Fcart%2Fconfigure_before_adding%2F9228123"
+						target="_blank"
+						class="button button-3d button-text-effect button-text-flip-y mx-3 me-xl-0 d-none d-sm-inline-block">Get
+						Canvas</a>
+				</div>
+
+				<div class="primary-menu-trigger">
+					<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+						<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+					</button>
+				</div>
+
+				
+				<nav class="primary-menu mobile-menu-off-canvas ms-auto me-auto">
+					<ul class="menu-container">
+						<li class="menu-item">
+							<a class="menu-link" href="/">
+								<div>Home</div>
+							</a>
+							
+						</li>
+						<li class="menu-item">
+							<a class="menu-link" href="/about">
+								<div>About Us</div>
+							</a>
+
+						</li>
+						<li class="menu-item mega-menu">
+							<a class="menu-link" href="/services">
+								<div>Services</div>
+							</a>
+						</li>
+
+						<li class="menu-item">
+							<a class="menu-link" href="/solutions">
+								<div>Solutions</div>
+							</a>
+							<ul class="sub-menu-container">
+								<li class="menu-item">
+									<a class="menu-link" style="text-transform: none;" href="/solutions/autoExpress">
+										<div>autoExpress</div>
+									</a>
+								</li>
+
+								<li class="menu-item">
+									<a class="menu-link" style="text-transform: none;" href="/solutions/erpXpress">
+										<div>erpXpress</div>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item mega-menu">
+							<a class="menu-link" href="/partners">
+								<div>Partners</div>
+							</a>
+
+						</li>
+						<li class="menu-item mega-menu">
+							<a class="menu-link" href="/clients">
+								<div>Clients</div>
+							</a>
+
+						</li>
+						<li class="menu-item">
+							<a class="menu-link" href="/news">
+								<div>News</div>
+							</a>
+
+						</li>
+					</ul>
+
+				</nav>
+
+				<form class="top-search-form" action="search" method="get">
+					<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.."
+						autocomplete="off">
+				</form>
+
+			</div>
+		</div>
+	</div>
+	<div class="header-wrap-clone"></div>
+</header>
+
+    
+      
+
+<section class="page-title bg-transparent">
+  <div class="container">
+    <div class="page-title-row">
+
+      <div class="page-title-content">
+        <h1>Solutions autoEpxress </h1>
+        <span>People who matter behind the scenes</span>
+      </div>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          
+          <li class="breadcrumb-item active" aria-current="page">Solutions autoEpxress</li>
+        </ol>
+      </nav>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="content">
+  <div class="content-wrap">
+    <div class="container">
+
+      <div class="fancy-title title-border">
+        <h3>3 Columns</h3>
+      </div>
+
+      <div class="row justify-content-center col-mb-50 mb-0">
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>John Doe</h4><span>CEO</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/2.jpg" alt="Josh Thompson" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Josh Thompson</h4><span>Co-Founder</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/8.jpg" alt="Mary Jane" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Mary Jane</h4><span>Sales</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fancy-title title-border">
+        <h3>Description Overlay</h3>
+      </div>
+
+      <div class="row justify-content-center col-mb-50 mb-0">
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="bg-overlay">
+              <div class="bg-overlay-content justify-content-start">
+                <div class="team-desc text-start bg-white bg-opacity-90 rounded w-75 p-4 mt-auto m-3">
+                  <div class="team-title pt-0">
+                    <h4>John Doe</h4><span>CEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/2.jpg" alt="Josh Thompson" class="rounded-6">
+            </div>
+            <div class="bg-overlay">
+              <div class="bg-overlay-content justify-content-start">
+                <div class="team-desc text-start bg-white bg-opacity-90 rounded w-75 p-4 mt-auto m-3">
+                  <div class="team-title pt-0">
+                    <h4>Josh Thompson</h4><span>Co-Founder</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/8.jpg" alt="Mary Jane" class="rounded-6">
+            </div>
+            <div class="bg-overlay">
+              <div class="bg-overlay-content justify-content-start">
+                <div class="team-desc text-start bg-white bg-opacity-90 rounded w-75 p-4 mt-auto m-3">
+                  <div class="team-title pt-0">
+                    <h4>Mary Jane</h4><span>Sales</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fancy-title title-border mt-5">
+        <h3>4 Columns</h3>
+      </div>
+
+      <div class="row col-mb-50 mb-0">
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>John Doe</h4><span>CEO</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/2.jpg" alt="Josh Clark" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Josh Clark</h4><span>Co-Founder</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/8.jpg" alt="Mary Jane" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Mary Jane</h4><span>Sales</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/4.jpg" alt="Nix Maxwell" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Nix Maxwell</h4><span>Support</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="fancy-title title-border mt-5">
+        <h3>List Layout</h3>
+      </div>
+
+      <div class="row col-mb-50 mb-0">
+
+        <div class="col-lg-6">
+
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>John Doe</h4><span>CEO</span>
+              </div>
+              <div class="team-content">
+                <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue
+                  assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+              </div>
+              <div class="d-flex mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/4.jpg" alt="Nix Maxwell" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>Nix Maxwell</h4><span>Support</span>
+              </div>
+              <div class="team-content">
+                <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in
+                  the field compassion, inspire breakthroughs planned giving.</p>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-forrst">
+                  <i class="fa-solid fa-tree"></i>
+                  <i class="fa-solid fa-tree"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-skype">
+                  <i class="fa-brands fa-skype"></i>
+                  <i class="fa-brands fa-skype"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-flickr">
+                  <i class="fa-brands fa-flickr"></i>
+                  <i class="fa-brands fa-flickr"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="fancy-title title-border title-center mt-5">
+        <h3>Grid Layout - Carousel</h3>
+      </div>
+
+      <div id="oc-team" class="owl-carousel team-carousel mb-5 carousel-widget" data-margin="30" data-pagi="false"
+        data-items-sm="2" data-items-md="2" data-items-xl="4">
+
+        <div class="oc-item">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>John Doe</h4><span>CEO</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/2.jpg" alt="Josh Clark" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Josh Clark</h4><span>Co-Founder</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/8.jpg" alt="Mary Jane" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Mary Jane</h4><span>Sales</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team">
+            <div class="team-image">
+              <img src="/images/team/4.jpg" alt="Nix Maxwell" class="rounded-6">
+            </div>
+            <div class="team-desc">
+              <div class="team-title">
+                <h4>Nix Maxwell</h4><span>Support</span>
+              </div>
+              <div class="d-flex justify-content-center mt-4">
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon si-small bg-light rounded-circle h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="fancy-title title-border title-center mt-5">
+        <h3>List Layout - Carousel</h3>
+      </div>
+
+      <div id="oc-team-list" class="owl-carousel team-carousel carousel-widget" data-margin="30" data-nav="false"
+        data-items-md="1" data-items-xl="2">
+
+        <div class="oc-item">
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/3.jpg" alt="John Doe" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>John Doe</h4><span>CEO</span>
+              </div>
+              <div class="team-content">
+                <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue
+                  assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+              </div>
+              <div class="d-flex mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-google">
+                  <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/2.jpg" alt="Josh Clark" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>Josh Clark</h4><span>Co-Founder</span>
+              </div>
+              <div class="team-content">
+                <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in
+                  the field compassion, inspire breakthroughs planned giving.</p>
+              </div>
+              <div class="d-flex mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-github">
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-dribbble">
+                  <i class="fa-brands fa-dribbble"></i>
+                  <i class="fa-brands fa-dribbble"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/8.jpg" alt="Mary Jane" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>Mary Jane</h4><span>Sales</span>
+              </div>
+              <div class="team-content">
+                <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue
+                  assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
+              </div>
+              <div class="d-flex mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-x-twitter">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-linkedin">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oc-item">
+          <div class="team team-list row align-items-center">
+            <div class="team-image col-sm-6">
+              <img src="/images/team/4.jpg" alt="Nix Maxwell" class="rounded-6">
+            </div>
+            <div class="team-desc col-sm-6">
+              <div class="team-title">
+                <h4>Nix Maxwell</h4><span>Support</span>
+              </div>
+              <div class="team-content">
+                <p>Eradicate invest honesty human rights accessibility theory of social change. Diversity experience in
+                  the field compassion, inspire breakthroughs planned giving.</p>
+              </div>
+              <div class="d-flex mt-4">
+                <a href="#" class="social-icon rounded-circle si-small h-bg-forrst">
+                  <i class="fa-solid fa-tree"></i>
+                  <i class="fa-solid fa-tree"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-skype">
+                  <i class="fa-brands fa-skype"></i>
+                  <i class="fa-brands fa-skype"></i>
+                </a>
+                <a href="#" class="social-icon rounded-circle si-small h-bg-flickr">
+                  <i class="fa-brands fa-flickr"></i>
+                  <i class="fa-brands fa-flickr"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+      
+    
+<footer id="footer" class="dark">
+	
+	<div id="copyrights">
+		<div class="container text-center">
+
+			<p class="mb-1">Copyrights &copy; 2023 All Rights Reserved by SemiColonWeb</p>
+			<div class="copyright-links"><a
+					href="https://1.envato.market/c/1309643/480739/4415?u=http%3A%2F%2Fthemeforest.net%2Fuser%2Fsemicolonweb%2Fportfolio"
+					target="_blank">Portfolio</a> / <a href="http://support.semicolonweb.com"
+					target="_blank">Support</a></div>
+
+		</div>
+	</div>
+</footer>
+
+
+
+    
+
+
+  </div>
+
+  
+  <div id="gotoTop" class="uil uil-angle-up"></div>
+
+  
+  <script src="/js/plugins.min.js"></script>
+  <script src="/js/functions.bundle.js"></script>
+
+</body>
+
+
+</html>

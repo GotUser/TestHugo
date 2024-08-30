@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Canvas Theme</title>
+    <link>https://hugoblogapp.com/categories/general/</link>
+    <description>Recent content in General on Canvas Theme</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="https://hugoblogapp.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>https://hugoblogapp.com/about/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/about/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Clients</title>
+      <link>https://hugoblogapp.com/clients/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/clients/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Home Page</title>
+      <link>https://hugoblogapp.com/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://hugoblogapp.com/news/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/news/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Partners</title>
+      <link>https://hugoblogapp.com/partners/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/partners/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>https://hugoblogapp.com/services/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/services/</guid>
+      <description>Test Content</description>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>https://hugoblogapp.com/solutions/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>https://hugoblogapp.com/solutions/</guid>
+      <description>Test Content</description>
+    </item>
+  </channel>
+</rss>
